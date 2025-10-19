@@ -1,6 +1,7 @@
 # Connect Your Friends - React App
 
 A responsive React application for managing friends and acquaintances with component-based architecture, built with TypeScript and Vite.
+![image](https://github.com/nikamvd/connect-your-friends/blob/main/poster.png)
 
 ## Features
 
