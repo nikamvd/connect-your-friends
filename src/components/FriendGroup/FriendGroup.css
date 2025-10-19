@@ -1,0 +1,50 @@
+.friend-group {
+  margin-bottom: 24px;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.group-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  margin-right: 8px;
+}
+
+.group-count {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.group-content {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .friend-group {
+    margin-bottom: 20px;
+  }
+  
+  .group-header {
+    padding: 10px 16px;
+  }
+  
+  .group-title {
+    font-size: 16px;
+  }
+  
+  .group-count {
+    font-size: 13px;
+  }
+}
